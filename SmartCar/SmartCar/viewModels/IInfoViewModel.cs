@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Input;
+using SmartCar.Models;
+
+namespace SmartCar.viewModels
+{
+    public interface IInfoViewModel
+    {
+        ICommand PickPhotoCommand { get; set; }
+        ICommand TakePhotoCommand { get; set; }
+
+        SmarterCar ClassifiedCar { get; set; }
+
+        bool IsRunning { get; set; }
+
+        ImageSource Photo {  get; set; }
+    }
+}

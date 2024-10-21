@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using SmartCar.viewModels;
+using SmartCar.Views;
 
 namespace SmartCar
 {
@@ -18,6 +20,9 @@ namespace SmartCar
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
+
+            builder.Services.AddTransient<HomePage>();
+            builder.Services.AddTransient<IInfoViewModel, InfoViewModel>();
 
             return builder.Build();
         }
