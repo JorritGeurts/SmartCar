@@ -1,21 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
-using CommunityToolkit.Mvvm.ComponentModel;
-using SmartCar.Models;
-using System.Windows.Input;
-using SmartCar.Services;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using SafariSnap.Services;
+using SmartCar.Models;
+using SmartCar.Services;
+using System.Windows.Input;
 
 namespace SmartCar.viewModels
 {
     public class InfoViewModel : ObservableObject, IInfoViewModel
     {
         private bool isRunning = false;
+        
 
         public bool IsRunning
         {
