@@ -86633,11 +86633,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\SmartCar\\SmartCar.csproj",
+      "projectUniqueName": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\SmartCar.csproj",
       "projectName": "SmartCar",
-      "projectPath": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\SmartCar\\SmartCar.csproj",
+      "projectPath": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\SmartCar.csproj",
       "packagesPath": "C:\\Users\\seppe\\.nuget\\packages\\",
-      "outputPath": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\SmartCar\\obj\\",
+      "outputPath": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

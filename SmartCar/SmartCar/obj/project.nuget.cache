@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VsJiCroSNSg=",
+  "dgSpecHash": "TWHPbDzXaVI=",
   "success": true,
-  "projectFilePath": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\SmartCar\\SmartCar.csproj",
+  "projectFilePath": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\SmartCar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\seppe\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\seppe\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",

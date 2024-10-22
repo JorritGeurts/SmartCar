@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,11 +13,16 @@ namespace SmartCar.viewModels
     {
         ICommand PickPhotoCommand { get; set; }
         ICommand TakePhotoCommand { get; set; }
+        ICommand AddPhotoCommand { get; set; }
+        ICommand RemovePhotoCommand { get; set; }
+        ICommand ShowAddPhotoMenuCommand { get; set; }
+
 
         SmarterCar ClassifiedCar { get; set; }
 
         bool IsRunning { get; set; }
-
-        ImageSource Photo {  get; set; }
+        bool HasPhotos { get; }
+        bool CanPickOrTakePhoto { get; }
+        ObservableCollection<ImageSource> Photos { get; set; }
     }
 }

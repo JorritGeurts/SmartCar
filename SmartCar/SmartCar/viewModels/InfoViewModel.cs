@@ -3,30 +3,38 @@ using CommunityToolkit.Mvvm.Input;
 using SafariSnap.Services;
 using SmartCar.Models;
 using SmartCar.Services;
+using SmartCar.viewModels;
+using System.Collections.ObjectModel;
+using System.IO;
 using System.Windows.Input;
 
-namespace SmartCar.viewModels
+
+namespace SmartCar.ViewModels
 {
     public class InfoViewModel : ObservableObject, IInfoViewModel
     {
         private bool isRunning = false;
-        
-
         public bool IsRunning
         {
             get => isRunning;
             set => SetProperty(ref isRunning, value);
         }
-        private ImageSource photo;
 
-        public ImageSource Photo
+        private ObservableCollection<ImageSource> photos = new ObservableCollection<ImageSource>();
+        public ObservableCollection<ImageSource> Photos
         {
-            get => photo;
-            set => SetProperty(ref photo, value);
+            get => photos;
+            set
+            {
+                SetProperty(ref photos, value);
+                OnPropertyChanged(nameof(HasPhotos));
+                OnPropertyChanged(nameof(CanPickOrTakePhoto));
+            }
         }
 
+        public bool HasPhotos => Photos?.Count >= 1;
+        public bool CanPickOrTakePhoto => !HasPhotos;
         private SmarterCar classifiedCar;
-
         public SmarterCar ClassifiedCar
         {
             get => classifiedCar;
@@ -35,6 +43,9 @@ namespace SmartCar.viewModels
 
         public ICommand PickPhotoCommand { get; set; }
         public ICommand TakePhotoCommand { get; set; }
+        public ICommand AddPhotoCommand { get; set; }
+        public ICommand RemovePhotoCommand { get; set; }
+        public ICommand ShowAddPhotoMenuCommand { get; set; }
 
         public InfoViewModel()
         {
@@ -45,7 +56,48 @@ namespace SmartCar.viewModels
         {
             PickPhotoCommand = new AsyncRelayCommand(PickAndClassifyPhoto);
             TakePhotoCommand = new AsyncRelayCommand(TakeAndClassifyPhoto);
+            ShowAddPhotoMenuCommand = new RelayCommand(ShowAddPhotoMenu);
+            AddPhotoCommand = new AsyncRelayCommand(AddPhotoCommandExecute);
+            RemovePhotoCommand = new RelayCommand<ImageSource>(RemovePhotoCommandExecute);
         }
+        private async Task PickPhoto()
+        {
+            var photo = await MediaPicker.Default.PickPhotoAsync();
+            await AddPhoto(photo);
+        }
+
+        private async Task TakePhoto()
+        {
+            var photo = await MediaPicker.Default.CapturePhotoAsync();
+            await AddPhoto(photo);
+        }
+
+        private void ShowAddPhotoMenu()
+        {
+            Application.Current.MainPage.DisplayActionSheet("Add Photo", "Cancel", null, "Pick Photo", "Take Photo")
+                .ContinueWith(async (task) =>
+                {
+                    var action = await task;
+                    if (action == "Pick Photo")
+                    {
+                        await PickPhoto();
+                    }
+                    else if (action == "Take Photo")
+                    {
+                        await TakePhoto();
+                    }
+                });
+        }
+        private async Task AddPhoto(FileResult photo)
+        {
+            if (photo != null)
+            {
+                var stream = await photo.OpenReadAsync();
+                Photos.Add(ImageSource.FromStream(() => stream));
+                OnPropertyChanged(nameof(HasPhotos));
+            }
+        }
+
 
         private async Task PickAndClassifyPhoto()
         {
@@ -59,23 +111,44 @@ namespace SmartCar.viewModels
             await ClassifyPhotoAsync(photo);
         }
 
+        private async Task AddPhotoCommandExecute()
+        {
+            var photo = await MediaPicker.Default.PickPhotoAsync();
+            if (photo != null)
+            {
+                var stream = await photo.OpenReadAsync();
+                Photos.Add(ImageSource.FromStream(() => stream));
+                OnPropertyChanged(nameof(HasPhotos));
+            }
+        }
+
+        private void RemovePhotoCommandExecute(ImageSource photo)
+        {
+            if (photo != null && Photos.Contains(photo) && Photos.IndexOf(photo) != 0)
+            {
+                Photos.Remove(photo);
+                OnPropertyChanged(nameof(HasPhotos));
+                OnPropertyChanged(nameof(CanPickOrTakePhoto));
+            }
+        }
+
+        public bool IsFirstPhoto(ImageSource photo)
+        {
+            return Photos.IndexOf(photo) == 0;
+        }
+
         private async Task ClassifyPhotoAsync(FileResult photo)
         {
             if (photo is { })
             {
                 IsRunning = true;
-
                 ClassifiedCar = new SmarterCar();
-
-                // Resize to allowed size - 4MB
                 var resizedPhoto = await PhotoImageService.ResizePhotoStreamAsync(photo);
-                Photo = ImageSource.FromStream(() => new MemoryStream(resizedPhoto));
+                Photos.Add(ImageSource.FromStream(() => new MemoryStream(resizedPhoto)));
+                OnPropertyChanged(nameof(HasPhotos));
 
-                // Custom Vision API call
                 var result = await CustomVisionService.ClassifyImageAsync(new MemoryStream(resizedPhoto));
-                // Change the percentage notation from 0.9 to display 90.0%
                 var percent = result?.Probability.ToString("P1");
-
                 if (result.TagName.Equals("Negative"))
                 {
                     ClassifiedCar.Name = "Dit is geen Audi.";
@@ -86,6 +159,7 @@ namespace SmartCar.viewModels
                     ClassifiedCar.Name += " " + percent;
                 }
 
+                OnPropertyChanged(nameof(CanPickOrTakePhoto));
                 IsRunning = false;
             }
         }
