@@ -4,24 +4,44 @@
              x:Class="SmartCar.Views.HomePage"
              xmlns:viewModels="clr-namespace:SmartCar.viewModels"
              xmlns:models="clr-namespace:SmartCar.Models"
-             x:DataType="viewModels:IInfoViewModel"
+             x:DataType="viewModels:IHomeViewModel"
              Title="SmartCar">
 
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="20" Spacing="10">
-                <Image Source="{Binding Photo}" Aspect="AspectFill" HeightRequest="300" WidthRequest="300" />
-                <HorizontalStackLayout Spacing="5" HorizontalOptions="Center">
+                <!-- Display photos horizontally -->
+                <ScrollView Orientation="Horizontal">
+                    <CollectionView ItemsSource="{Binding Photos}" ItemsLayout="HorizontalList">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout>
+                                    <Image Source="{Binding}" Aspect="AspectFill" HeightRequest="100" WidthRequest="100" Margin="5,0" />
+                                    <Button Text="Delete Photo" Command="{Binding Path=BindingContext.RemovePhotoCommand, Source={RelativeSource AncestorType={x:Type Page}}}" CommandParameter="{Binding}" HorizontalOptions="Center" />
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </ScrollView>
+
+                <HorizontalStackLayout Spacing="5" HorizontalOptions="Center" IsVisible="{Binding CanPickOrTakePhoto}">
                     <Button Command="{Binding PickPhotoCommand}" HorizontalOptions="Start" Text="Pick a picture" />
                     <Button Command="{Binding TakePhotoCommand}" HorizontalOptions="End" Text="Take a picture" />
                     <ActivityIndicator IsRunning="{Binding IsRunning}" />
                 </HorizontalStackLayout>
+
+                <!-- Add More Photos button, visible only if there's at least one photo -->
+                <HorizontalStackLayout Spacing="5" HorizontalOptions="Center" IsVisible="{Binding HasPhotos}">
+                    <Button Text="Add More Photos..." Command="{Binding ShowAddPhotoMenuCommand}" HorizontalOptions="Start" Margin="10,0,10,0" />
+                </HorizontalStackLayout>
+
                 <Frame BorderColor="LightGray" CornerRadius="10" Padding="10" Margin="0,10,0,0">
                     <StackLayout>
                         <Label Text="{Binding ClassifiedCar.Name}" FontSize="Large" FontAttributes="Bold" />
                         <Label Text="{Binding ClassifiedCar.Price}" FontSize="Large" FontAttributes="Bold" />
                     </StackLayout>
                 </Frame>
+
                 <Frame BorderColor="LightGray" CornerRadius="10" Padding="10">
                     <StackLayout>
                         <Label Text="Specs" FontSize="Medium" FontAttributes="Bold" />
@@ -30,7 +50,8 @@
                         <Label Text="{Binding ClassifiedCar.Spec.Transmission}" FontSize="Small" />
                     </StackLayout>
                 </Frame>
-                <Frame BorderColor="LightGray" CornerRadius="10" Padding="10" Margin="10">
+
+                <Frame BorderColor="LightGray" CornerRadius="10" Padding="10" Margin="10" IsVisible="{Binding IsCarClassified}">
                     <StackLayout>
                         <Label Text="Car Details" FontSize="Medium" FontAttributes="Bold" />
                         <Entry Placeholder="Kilometer Amount" Text="{Binding ClassifiedCar.KmAmount}" Keyboard="Numeric" />
@@ -47,8 +68,10 @@
                         </StackLayout>
                     </StackLayout>
                 </Frame>
+                <Button Text="Save" Command="{Binding SaveAllInfoCommand}" HorizontalOptions="Center"/>
             </StackLayout>
         </ScrollView>
+
     </ContentPage.Content>
 
 </ContentPage>

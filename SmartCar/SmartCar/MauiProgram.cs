@@ -1,5 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
+using SmartCar.Services;
 using SmartCar.viewModels;
+using SmartCar.ViewModels;
 using SmartCar.Views;
 
 namespace SmartCar
@@ -22,7 +24,15 @@ namespace SmartCar
 #endif
 
             builder.Services.AddTransient<HomePage>();
+            builder.Services.AddTransient<IHomeViewModel, HomeViewModel>();
+
+            builder.Services.AddTransient<InfoPage>();
             builder.Services.AddTransient<IInfoViewModel, InfoViewModel>();
+
+            builder.Services.AddSingleton<IStorageService, StorageService>();
+            builder.Services.AddTransient<INavigationService, NavigationService>();
+
+            
 
             return builder.Build();
         }

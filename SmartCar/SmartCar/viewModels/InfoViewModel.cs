@@ -1,93 +1,35 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
-using CommunityToolkit.Mvvm.Input;
-using SafariSnap.Services;
+﻿using System.Collections.ObjectModel;
+using CommunityToolkit.Mvvm.ComponentModel;
 using SmartCar.Models;
 using SmartCar.Services;
-using System.Windows.Input;
+using SmartCar.viewModels;
 
-namespace SmartCar.viewModels
+namespace SmartCar.ViewModels
 {
     public class InfoViewModel : ObservableObject, IInfoViewModel
     {
-        private bool isRunning = false;
+        private readonly IStorageService _storageService;
+
+        public ObservableCollection<SmarterCar> Cars { get; } = new ObservableCollection<SmarterCar>();
+
+        public InfoViewModel(IStorageService storageService, INavigationService navigationService)
+        {
+            _storageService = storageService;
+            Console.WriteLine("InfoViewModel aangemaakt"); // Debug output
+            LoadCars();
+        }
         
-
-        public bool IsRunning
+        public async void LoadCars()
         {
-            get => isRunning;
-            set => SetProperty(ref isRunning, value);
-        }
-        private ImageSource photo;
-
-        public ImageSource Photo
-        {
-            get => photo;
-            set => SetProperty(ref photo, value);
-        }
-
-        private SmarterCar classifiedCar;
-
-        public SmarterCar ClassifiedCar
-        {
-            get => classifiedCar;
-            set => SetProperty(ref classifiedCar, value);
-        }
-
-        public ICommand PickPhotoCommand { get; set; }
-        public ICommand TakePhotoCommand { get; set; }
-
-        public InfoViewModel()
-        {
-            BindCommands();
-        }
-
-        private void BindCommands()
-        {
-            PickPhotoCommand = new AsyncRelayCommand(PickAndClassifyPhoto);
-            TakePhotoCommand = new AsyncRelayCommand(TakeAndClassifyPhoto);
-        }
-
-        private async Task PickAndClassifyPhoto()
-        {
-            var photo = await MediaPicker.Default.PickPhotoAsync();
-            await ClassifyPhotoAsync(photo);
-        }
-
-        private async Task TakeAndClassifyPhoto()
-        {
-            var photo = await MediaPicker.Default.CapturePhotoAsync();
-            await ClassifyPhotoAsync(photo);
-        }
-
-        private async Task ClassifyPhotoAsync(FileResult photo)
-        {
-            if (photo is { })
+            var cars = await _storageService.GetAllCarsAsync();
+            foreach (var car in cars)
             {
-                IsRunning = true;
-
-                ClassifiedCar = new SmarterCar();
-
-                // Resize to allowed size - 4MB
-                var resizedPhoto = await PhotoImageService.ResizePhotoStreamAsync(photo);
-                Photo = ImageSource.FromStream(() => new MemoryStream(resizedPhoto));
-
-                // Custom Vision API call
-                var result = await CustomVisionService.ClassifyImageAsync(new MemoryStream(resizedPhoto));
-                // Change the percentage notation from 0.9 to display 90.0%
-                var percent = result?.Probability.ToString("P1");
-
-                if (result.TagName.Equals("Negative"))
-                {
-                    ClassifiedCar.Name = "Dit is geen Audi.";
-                }
-                else
-                {
-                    ClassifiedCar = SmartCarService.GetSmartCarByTag(result.TagName)!;
-                    ClassifiedCar.Name += " " + percent;
-                }
-
-                IsRunning = false;
+                Cars.Add(car);
+                Console.WriteLine($"Auto geladen: {car.Name}"); // Debug output
             }
+
+            Console.WriteLine($"Totaal aantal auto's geladen: {Cars.Count}"); // Total count debug output
         }
     }
+
 }

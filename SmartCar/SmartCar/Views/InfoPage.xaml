@@ -1,0 +1,39 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartCar.Views.InfoPage"
+             xmlns:viewModels="clr-namespace:SmartCar.viewModels"
+             xmlns:models="clr-namespace:SmartCar.Models"
+             x:DataType="viewModels:IInfoViewModel"
+             Title="SmartCar">
+    <ContentPage.Content>
+        <ScrollView>
+            <VerticalStackLayout>
+                <Label Text="{Binding Cars.Count, StringFormat='Aantal autos: {0}'}" FontSize="Medium" FontAttributes="Bold" />
+                <CollectionView ItemsSource="{Binding Cars}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame BorderColor="LightGray" CornerRadius="10" Padding="10" Margin="10">
+                                <StackLayout>
+                                    <Label Text="{Binding}" FontSize="Large" FontAttributes="Bold" />
+                                    <Label Text="{Binding}" FontSize="Medium" />
+                                    <Label Text="{Binding}" FontSize="Small" />
+                                    <Label Text="{Binding}" FontSize="Small" />
+                                    <Label Text="{Binding}" FontSize="Small" />
+                                    <Label Text="{Binding}" FontSize="Small" />
+                                    <Label Text="{Binding}" FontSize="Small" />
+                                    <CollectionView ItemsSource="{Binding}" ItemsLayout="HorizontalList">
+                                        <CollectionView.ItemTemplate>
+                                            <DataTemplate>
+                                                <Image Source="{Binding}" Aspect="AspectFill" HeightRequest="100" WidthRequest="100" Margin="5,0" />
+                                            </DataTemplate>
+                                        </CollectionView.ItemTemplate>
+                                    </CollectionView>
+                                </StackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

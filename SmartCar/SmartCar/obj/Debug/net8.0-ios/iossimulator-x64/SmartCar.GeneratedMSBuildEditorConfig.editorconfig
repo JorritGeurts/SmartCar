@@ -12,36 +12,42 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SmartCar
-build_property.ProjectDir = F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\SmartCar\
+build_property.ProjectDir = F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[F:/Thomas_More/24-25/.NET Advanced/project/SmartCar/SmartCar/SmartCar/App.xaml]
+[F:/Thomas_More/24-25/.NET Advanced/project/SmartCar/SmartCar/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SmartCar.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[F:/Thomas_More/24-25/.NET Advanced/project/SmartCar/SmartCar/SmartCar/AppShell.xaml]
+[F:/Thomas_More/24-25/.NET Advanced/project/SmartCar/SmartCar/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SmartCar.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[F:/Thomas_More/24-25/.NET Advanced/project/SmartCar/SmartCar/SmartCar/Resources/Styles/Colors.xaml]
+[F:/Thomas_More/24-25/.NET Advanced/project/SmartCar/SmartCar/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SmartCar.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[F:/Thomas_More/24-25/.NET Advanced/project/SmartCar/SmartCar/SmartCar/Resources/Styles/Styles.xaml]
+[F:/Thomas_More/24-25/.NET Advanced/project/SmartCar/SmartCar/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SmartCar.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[F:/Thomas_More/24-25/.NET Advanced/project/SmartCar/SmartCar/SmartCar/Views/HomePage.xaml]
+[F:/Thomas_More/24-25/.NET Advanced/project/SmartCar/SmartCar/Views/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SmartCar.Views.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
+
+[F:/Thomas_More/24-25/.NET Advanced/project/SmartCar/SmartCar/Views/InfoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SmartCar.Views.InfoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\InfoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\InfoPage.xaml
