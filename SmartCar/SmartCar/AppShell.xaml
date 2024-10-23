@@ -7,9 +7,10 @@
     Shell.FlyoutBehavior="Disabled"
     Title="SmartCar">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate views:HomePage}"
-        Route="MainPage" />
+    <TabBar>
+        <ShellContent Title="Home" ContentTemplate="{DataTemplate views:HomePage}" Route="HomePage"/>
+        <ShellContent Title="Info" ContentTemplate="{DataTemplate views:InfoPage}" Route="InfoPage"/>
+    </TabBar>
+    
 
 </Shell>

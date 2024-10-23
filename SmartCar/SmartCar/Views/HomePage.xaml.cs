@@ -4,7 +4,7 @@ namespace SmartCar.Views;
 
 public partial class HomePage : ContentPage
 {
-	public HomePage(IInfoViewModel viewModel)
+	public HomePage(IHomeViewModel viewModel)
 	{
         InitializeComponent();
 

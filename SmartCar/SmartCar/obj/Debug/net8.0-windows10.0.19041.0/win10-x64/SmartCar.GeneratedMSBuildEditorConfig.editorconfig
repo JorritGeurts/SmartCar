@@ -41,3 +41,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SmartCar.Views.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
+
+[F:/Thomas_More/24-25/.NET Advanced/project/SmartCar/SmartCar/Views/InfoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SmartCar.Views.InfoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\InfoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\InfoPage.xaml

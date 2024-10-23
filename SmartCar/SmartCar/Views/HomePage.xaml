@@ -4,7 +4,7 @@
              x:Class="SmartCar.Views.HomePage"
              xmlns:viewModels="clr-namespace:SmartCar.viewModels"
              xmlns:models="clr-namespace:SmartCar.Models"
-             x:DataType="viewModels:IInfoViewModel"
+             x:DataType="viewModels:IHomeViewModel"
              Title="SmartCar">
 
     <ContentPage.Content>
@@ -51,7 +51,7 @@
                     </StackLayout>
                 </Frame>
 
-                <Frame BorderColor="LightGray" CornerRadius="10" Padding="10" Margin="10">
+                <Frame BorderColor="LightGray" CornerRadius="10" Padding="10" Margin="10" IsVisible="{Binding IsCarClassified}">
                     <StackLayout>
                         <Label Text="Car Details" FontSize="Medium" FontAttributes="Bold" />
                         <Entry Placeholder="Kilometer Amount" Text="{Binding ClassifiedCar.KmAmount}" Keyboard="Numeric" />
@@ -68,6 +68,7 @@
                         </StackLayout>
                     </StackLayout>
                 </Frame>
+                <Button Text="Save" Command="{Binding SaveAllInfoCommand}" HorizontalOptions="Center"/>
             </StackLayout>
         </ScrollView>
 

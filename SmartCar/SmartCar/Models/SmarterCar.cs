@@ -102,6 +102,13 @@ namespace SmartCar.Models
             set => SetProperty(ref isDamageTypeSelected, value);
         }
 
+        private ObservableCollection<ImageSource> photos = new ObservableCollection<ImageSource>();
+        public ObservableCollection<ImageSource> Photos
+        {
+            get => photos;
+            set => SetProperty(ref photos, value);
+        }
+
         public SmarterCar()
         {
             DamageTypes = new ObservableCollection<string> { "Scratch", "Dent", "Crack" }; // Example types
