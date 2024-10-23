@@ -54,8 +54,7 @@
               "RelativeToolTip": "SmartCarAPI\\Data\\DbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T09:21:28.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T09:21:28.552Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "SmartCarAPI\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T09:21:25.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T09:21:25.603Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "SmartCarAPI\\Migrations\\20241023091832_InitialCreate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T09:18:33.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T09:18:33.119Z"
             },
             {
               "$type": "Document",
@@ -91,7 +88,7 @@
               "RelativeDocumentMoniker": "SmartCarAPI\\Controllers\\DamagesController.cs",
               "ToolTip": "C:\\Users\\Jorrit Geurts\\Documents\\School\\Jaar3\\Semester1\\.Net\\Project\\SmartCar\\SmartCarAPI\\Controllers\\DamagesController.cs",
               "RelativeToolTip": "SmartCarAPI\\Controllers\\DamagesController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAA1wDgAAAAlAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwDgAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T08:49:19.948Z",
               "EditorCaption": ""
@@ -106,8 +103,7 @@
               "RelativeToolTip": "SmartCarAPI\\CarDamageController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T16:30:07.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T16:30:07.783Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "SmartCarAPI\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T16:18:43.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T16:18:43.393Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "SmartCarAPI\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-22T16:14:49.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T16:14:49.787Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "SmartCar\\MauiProgram.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T15:45:44.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T15:45:44.508Z"
             }
           ]
         }
