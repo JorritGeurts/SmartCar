@@ -8,20 +8,19 @@
     <ContentPage.Content>
         <ScrollView>
             <VerticalStackLayout>
-                <Label Text="{Binding Cars.Count, StringFormat='Aantal autos: {0}'}" FontSize="Medium" FontAttributes="Bold" />
                 <CollectionView ItemsSource="{Binding Cars}">
                     <CollectionView.ItemTemplate>
-                        <DataTemplate>
+                        <DataTemplate x:DataType="models:SmarterCar">
                             <Frame BorderColor="LightGray" CornerRadius="10" Padding="10" Margin="10">
                                 <StackLayout>
-                                    <Label Text="{Binding}" FontSize="Large" FontAttributes="Bold" />
+                                    <Label Text="{Binding Name}" FontSize="Large" FontAttributes="Bold" />
                                     <Label Text="{Binding}" FontSize="Medium" />
                                     <Label Text="{Binding}" FontSize="Small" />
                                     <Label Text="{Binding}" FontSize="Small" />
                                     <Label Text="{Binding}" FontSize="Small" />
                                     <Label Text="{Binding}" FontSize="Small" />
                                     <Label Text="{Binding}" FontSize="Small" />
-                                    <CollectionView ItemsSource="{Binding}" ItemsLayout="HorizontalList">
+                                    <CollectionView ItemsSource="{Binding Photos}" ItemsLayout="HorizontalList">
                                         <CollectionView.ItemTemplate>
                                             <DataTemplate>
                                                 <Image Source="{Binding}" Aspect="AspectFill" HeightRequest="100" WidthRequest="100" Margin="5,0" />

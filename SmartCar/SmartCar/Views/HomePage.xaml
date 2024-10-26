@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SmartCar.Views.HomePage"
-             xmlns:viewModels="clr-namespace:SmartCar.viewModels"
-             xmlns:models="clr-namespace:SmartCar.Models"
-             x:DataType="viewModels:IHomeViewModel"
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"             
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"             
+             x:Class="SmartCar.Views.HomePage"             
+             xmlns:viewModels="clr-namespace:SmartCar.viewModels"             
+             xmlns:models="clr-namespace:SmartCar.Models"             
+             x:DataType="viewModels:IHomeViewModel"             
              Title="SmartCar">
-
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="20" Spacing="10">
@@ -23,25 +22,24 @@
                         </CollectionView.ItemTemplate>
                     </CollectionView>
                 </ScrollView>
-
                 <HorizontalStackLayout Spacing="5" HorizontalOptions="Center" IsVisible="{Binding CanPickOrTakePhoto}">
                     <Button Command="{Binding PickPhotoCommand}" HorizontalOptions="Start" Text="Pick a picture" />
                     <Button Command="{Binding TakePhotoCommand}" HorizontalOptions="End" Text="Take a picture" />
                     <ActivityIndicator IsRunning="{Binding IsRunning}" />
                 </HorizontalStackLayout>
-
                 <!-- Add More Photos button, visible only if there's at least one photo -->
                 <HorizontalStackLayout Spacing="5" HorizontalOptions="Center" IsVisible="{Binding HasPhotos}">
                     <Button Text="Add More Photos..." Command="{Binding ShowAddPhotoMenuCommand}" HorizontalOptions="Start" Margin="10,0,10,0" />
                 </HorizontalStackLayout>
-
                 <Frame BorderColor="LightGray" CornerRadius="10" Padding="10" Margin="0,10,0,0">
                     <StackLayout>
                         <Label Text="{Binding ClassifiedCar.Name}" FontSize="Large" FontAttributes="Bold" />
-                        <Label Text="{Binding ClassifiedCar.Price}" FontSize="Large" FontAttributes="Bold" />
+                        <Label Text="{Binding ClassifiedCar.OldPrice}" FontSize="Large" FontAttributes="Bold" />
+                        <StackLayout IsVisible="{Binding ClassifiedCar.IsDamaged}">
+                            <Label Text="{Binding ClassifiedCar.NewPrice}" FontSize="Large" FontAttributes="Bold" />
+                        </StackLayout>
                     </StackLayout>
                 </Frame>
-
                 <Frame BorderColor="LightGray" CornerRadius="10" Padding="10">
                     <StackLayout>
                         <Label Text="Specs" FontSize="Medium" FontAttributes="Bold" />
@@ -50,7 +48,6 @@
                         <Label Text="{Binding ClassifiedCar.Spec.Transmission}" FontSize="Small" />
                     </StackLayout>
                 </Frame>
-
                 <Frame BorderColor="LightGray" CornerRadius="10" Padding="10" Margin="10" IsVisible="{Binding IsCarClassified}">
                     <StackLayout>
                         <Label Text="Car Details" FontSize="Medium" FontAttributes="Bold" />
@@ -71,7 +68,5 @@
                 <Button Text="Save" Command="{Binding SaveAllInfoCommand}" HorizontalOptions="Center"/>
             </StackLayout>
         </ScrollView>
-
     </ContentPage.Content>
-
 </ContentPage>

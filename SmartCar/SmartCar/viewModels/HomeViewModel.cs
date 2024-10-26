@@ -163,6 +163,24 @@ namespace SmartCar.ViewModels
             }
         }
 
+        private void RecalculatePrice()
+        {
+            double basePrice = ClassifiedCar.Price;
+            double newPrice = basePrice;
+            if (ClassifiedCar.IsDamaged)
+            {
+                newPrice *= 0.8;
+            }
+
+            foreach (var damage in ClassifiedCar.DamageTypes)
+            {
+                newPrice *= 0.9;
+            }
+            ClassifiedCar.OldPrice = basePrice;
+            ClassifiedCar.NewPrice = newPrice;
+            OnPropertyChanged(nameof(ClassifiedCar) );
+        }
+
         private async Task ClassifyPhotoAsync(FileResult photo)
         {
             if (photo is { })
@@ -174,7 +192,6 @@ namespace SmartCar.ViewModels
                 OnPropertyChanged(nameof(HasPhotos));
 
                 var result = await CustomVisionService.ClassifyImageAsync(new MemoryStream(resizedPhoto));
-                var percent = result?.Probability.ToString("P1");
                 if (result.TagName.Equals("Negative"))
                 {
                     ClassifiedCar.Name = "Dit is geen Audi.";
@@ -182,11 +199,12 @@ namespace SmartCar.ViewModels
                 else
                 {
                     ClassifiedCar = SmartCarService.GetSmartCarByTag(result.TagName)!;
-                    ClassifiedCar.Name += " " + percent;
+                    ClassifiedCar.Name += " ";
                 }
                 IsCarClassified = true;
                 OnPropertyChanged(nameof(CanPickOrTakePhoto));
                 IsRunning = false;
+                RecalculatePrice();
             }
         }
     }

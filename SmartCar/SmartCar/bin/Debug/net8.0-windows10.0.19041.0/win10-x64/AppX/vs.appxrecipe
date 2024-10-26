@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.smartcar</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>DCBF215EE6B4F24FF3DCED640AC37F703F591955F1025697D600B8014A73EE87</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.smartcar_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.smartcar_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,268 +26,268 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-23T09:57:09.598</Modified>
+      <Modified>2024-10-26T10:06:32.786</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-23T09:57:09.408</Modified>
+      <Modified>2024-10-26T10:06:32.593</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SmartCar.runtimeconfig.json">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SmartCar.runtimeconfig.json">
       <PackagePath>SmartCar.runtimeconfig.json</PackagePath>
-      <Modified>2024-10-23T08:08:26.919</Modified>
+      <Modified>2024-10-25T17:35:04.003</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SmartCar.dll">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SmartCar.dll">
       <PackagePath>SmartCar.dll</PackagePath>
-      <Modified>2024-10-23T09:57:08.932</Modified>
+      <Modified>2024-10-26T10:06:32.110</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>SmartCar.exe</PackagePath>
-      <Modified>2024-10-23T09:57:08.938</Modified>
+      <Modified>2024-10-26T10:06:32.116</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2024-10-21T17:53:45.886</Modified>
+      <Modified>2024-10-25T17:05:39.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-10-21T17:53:49.643</Modified>
+      <Modified>2024-10-25T17:05:43.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-10-21T17:53:49.644</Modified>
+      <Modified>2024-10-25T17:05:43.074</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-10-21T17:53:49.645</Modified>
+      <Modified>2024-10-25T17:05:43.075</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-10-21T17:53:49.646</Modified>
+      <Modified>2024-10-25T17:05:43.076</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-10-21T17:53:49.648</Modified>
+      <Modified>2024-10-25T17:05:43.081</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-10-21T17:53:49.563</Modified>
+      <Modified>2024-10-25T17:05:42.977</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-10-21T17:53:49.566</Modified>
+      <Modified>2024-10-25T17:05:42.980</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:42.988</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.422</Modified>
+      <Modified>2024-10-25T17:05:42.990</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.422</Modified>
+      <Modified>2024-10-25T17:05:42.991</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.422</Modified>
+      <Modified>2024-10-25T17:05:42.992</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.422</Modified>
+      <Modified>2024-10-25T17:05:42.994</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.422</Modified>
+      <Modified>2024-10-25T17:05:42.996</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:42.997</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:42.998</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:42.999</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.001</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.002</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.003</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.005</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.006</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.007</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.008</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.009</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.010</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.014</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.020</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.022</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.025</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.033</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.035</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.037</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.038</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.039</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.422</Modified>
+      <Modified>2024-10-25T17:05:43.040</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.422</Modified>
+      <Modified>2024-10-25T17:05:43.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.043</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.044</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.045</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.046</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.047</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.050</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.051</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.053</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.438</Modified>
+      <Modified>2024-10-25T17:05:43.055</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.422</Modified>
+      <Modified>2024-10-25T17:05:43.056</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.422</Modified>
+      <Modified>2024-10-25T17:05:43.057</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.422</Modified>
+      <Modified>2024-10-25T17:05:43.058</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.422</Modified>
+      <Modified>2024-10-25T17:05:43.059</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.422</Modified>
+      <Modified>2024-10-25T17:05:43.060</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.422</Modified>
+      <Modified>2024-10-25T17:05:43.062</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.422</Modified>
+      <Modified>2024-10-25T17:05:43.063</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.422</Modified>
+      <Modified>2024-10-25T17:05:43.065</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.422</Modified>
+      <Modified>2024-10-25T17:05:43.067</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-10-22T08:30:56.422</Modified>
+      <Modified>2024-10-25T17:05:43.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\project\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SmartCar.deps.json">
+    <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SmartCar.deps.json">
       <PackagePath>SmartCar.deps.json</PackagePath>
-      <Modified>2024-10-23T08:08:26.743</Modified>
+      <Modified>2024-10-25T17:35:03.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\seppe\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
