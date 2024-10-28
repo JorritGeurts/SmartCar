@@ -91,7 +91,7 @@ namespace SmartCar.Models
             {
                 SetProperty(ref selectedDamageType, value);
                 IsDamageTypeSelected = !string.IsNullOrEmpty(value);
-                DamageSeverities = new ObservableCollection<string> { "Minor", "Moderate", "Severe" }; // Example severities
+                DamageSeverities = new ObservableCollection<string> { "Minor", "Moderate", "Severe","Critical" }; // Example severities
             }
         }
 

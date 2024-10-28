@@ -56,11 +56,27 @@
                         <Label Text="Damage" FontSize="Small" />
                         <CheckBox IsChecked="{Binding ClassifiedCar.IsDamaged}" />
                         <StackLayout IsVisible="{Binding ClassifiedCar.IsDamaged}">
-                            <Label Text="Damage Type" />
-                            <Picker ItemsSource="{Binding ClassifiedCar.DamageTypes}" SelectedItem="{Binding ClassifiedCar.SelectedDamageType}" />
+                            <HorizontalStackLayout Spacing="10">
+                                <StackLayout>
+                                    <Label Text="Damage Type" />
+                                    <Picker ItemsSource="{Binding ClassifiedCar.DamageTypes}" SelectedItem="{Binding ClassifiedCar.SelectedDamageType}" />
+                                </StackLayout>
+                                <StackLayout>
+                                    <Label Text="Damage Severity" />
+                                    <Picker ItemsSource="{Binding ClassifiedCar.DamageSeverities}" SelectedItem="{Binding ClassifiedCar.SelectedDamageSeverity}" IsEnabled="{Binding ClassifiedCar.IsDamageTypeSelected}" />
+                                </StackLayout>
+                            </HorizontalStackLayout>
                             <StackLayout IsVisible="{Binding ClassifiedCar.IsDamageTypeSelected}">
-                                <Label Text="Damage Severity" />
-                                <Picker ItemsSource="{Binding ClassifiedCar.DamageSeverities}" SelectedItem="{Binding ClassifiedCar.SelectedDamageSeverity}" />
+                                <HorizontalStackLayout Spacing="10">
+                                    <StackLayout>
+                                        <Label Text="Damage Type" />
+                                        <Picker ItemsSource="{Binding ClassifiedCar.DamageTypes}" />
+                                    </StackLayout>
+                                    <StackLayout>
+                                        <Label Text="Damage Severity" />
+                                        <Picker ItemsSource="{Binding ClassifiedCar.DamageSeverities}"  IsEnabled="{Binding ClassifiedCar.IsDamageTypeSelected}"/>
+                                    </StackLayout>
+                                </HorizontalStackLayout>
                             </StackLayout>
                         </StackLayout>
                     </StackLayout>

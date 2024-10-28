@@ -29,13 +29,13 @@
     <AppXManifest Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-26T10:06:32.786</Modified>
+      <Modified>2024-10-28T15:26:10.354</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-26T10:06:32.593</Modified>
+      <Modified>2024-10-28T15:26:10.012</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SmartCar.runtimeconfig.json">
       <PackagePath>SmartCar.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SmartCar.dll">
       <PackagePath>SmartCar.dll</PackagePath>
-      <Modified>2024-10-26T10:06:32.110</Modified>
+      <Modified>2024-10-28T15:26:08.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>SmartCar.exe</PackagePath>
-      <Modified>2024-10-26T10:06:32.116</Modified>
+      <Modified>2024-10-28T15:26:08.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -287,7 +287,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SmartCar.deps.json">
       <PackagePath>SmartCar.deps.json</PackagePath>
-      <Modified>2024-10-25T17:35:03.819</Modified>
+      <Modified>2024-10-28T14:57:59.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\seppe\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

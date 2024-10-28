@@ -154,6 +154,7 @@ namespace SmartCar.ViewModels
         {
             try
             {
+                
                 await _navigationService.NavigateToInfoPageAsync(ClassifiedCar);
             }
             catch (Exception ex)
