@@ -10,7 +10,7 @@
                 {
                     Tag = "A1",
                     Name = "Audi A1",
-                    Price = "27000",
+                    Price = 27000,
                     Spec = new Specs
                     {
                         Engine = "1.0L 3-cylinder TFSI",
@@ -22,7 +22,7 @@
                 {
                     Tag = "A3",
                     Name = "Audi A3",
-                    Price = "39000",
+                    Price = 39000,
                     Spec = new Specs
                     {
                         Engine = "2.0L turbocharged 4-cylinder",
@@ -34,7 +34,7 @@
                 {
                     Tag = "A4",
                     Name = "Audi A4",
-                    Price = "44000",
+                    Price = 44000,
                     Spec = new Specs
                     {
                         Engine = "2.0L TFSI with 261 hp",
@@ -46,7 +46,7 @@
                 {
                     Tag = "A5",
                     Name = "Audi A5",
-                    Price = "48000",
+                    Price = 48000,
                     Spec = new Specs
                     {
                         Engine = "2.0L TFSI with 261 hp",
@@ -58,7 +58,7 @@
                 {
                     Tag = "A6",
                     Name = "Audi A6",
-                    Price = "60000",
+                    Price = 60000,
                     Spec = new Specs
                     {
                         Engine = "3.0L V6 turbocharged",
@@ -70,7 +70,7 @@
                 {
                     Tag = "A6-etron",
                     Name = "Audi A6 e-tron",
-                    Price = "72500",
+                    Price = 72500,
                     Spec = new Specs
                     {
                         Engine = "Dual-motor setup, approx. 470 hp",
@@ -82,7 +82,7 @@
                 {
                     Tag = "A7",
                     Name = "Audi A7",
-                    Price = "76500",
+                    Price = 76500,
                     Spec = new Specs
                     {
                         Engine = "3.0L V6 TFSI with 335 hp",
@@ -94,7 +94,7 @@
                 {
                     Tag = "A8",
                     Name = "Audi A8",
-                    Price = "90000",
+                    Price = 90000,
                     Spec = new Specs
                     {
                         Engine = "4.0L twin-turbo V8",
@@ -106,7 +106,7 @@
                 {
                     Tag = "e-tronGT",
                     Name = "Audi e-tron GT",
-                    Price = "116500",
+                    Price = 116500,
                     Spec = new Specs
                     {
                         Engine = "Dual-motor setup with up to 522 hp",
@@ -118,7 +118,7 @@
                 {
                     Tag = "Q2",
                     Name = "Audi Q2",
-                    Price = "32000",
+                    Price = 32000,
                     Spec = new Specs
                     {
                         Engine = "1.5L TFSI with 150 hp",
@@ -130,7 +130,7 @@
                 {
                     Tag = "Q3",
                     Name = "Audi Q3",
-                    Price = "40000",
+                    Price = 40000,
                     Spec = new Specs
                     {
                         Engine = "2.0L TFSI with 228 hp",
@@ -142,7 +142,7 @@
                 {
                     Tag = "Q4-etron",
                     Name = "Audi Q4 e-tron",
-                    Price = "53000",
+                    Price = 53000,
                     Spec = new Specs
                     {
                         Engine = "Dual-motor setup with 295 hp",
@@ -154,7 +154,7 @@
                 {
                     Tag = "Q5",
                     Name = "Audi Q5",
-                    Price = "51000",
+                    Price = 51000,
                     Spec = new Specs
                     {
                         Engine = "2.0L turbocharged 4-cylinder",
@@ -166,7 +166,7 @@
                 {
                     Tag = "Q6-etron",
                     Name = "Audi Q6 e-tron",
-                    Price = "65000",
+                    Price = 65000,
                     Spec = new Specs
                     {
                         Engine = "Dual-motor setup with 375 hp",
@@ -178,7 +178,7 @@
                 {
                     Tag = "Q7",
                     Name = "Audi Q7",
-                    Price = "62500",
+                    Price = 62500,
                     Spec = new Specs
                     {
                         Engine = "3.0L V6 turbocharged",
@@ -190,7 +190,7 @@
                 {
                     Tag = "Q8",
                     Name = "Audi Q8",
-                    Price = "78000",
+                    Price = 78000,
                     Spec = new Specs
                     {
                         Engine = "3.0L V6 TFSI with 335 hp",
@@ -202,7 +202,7 @@
                 {
                     Tag = "Q8-etron",
                     Name = "Audi Q8 e-tron",
-                    Price = "75000",
+                    Price = 75000,
                     Spec = new Specs
                     {
                         Engine = "Dual-motor setup with up to 402 hp",

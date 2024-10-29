@@ -20,11 +20,25 @@ namespace SmartCar.Models
             set => SetProperty(ref name, value);
         }
 
-        private string price = string.Empty;
-        public string Price
+        private double price;
+        public double Price
         {
             get => price;
             set => SetProperty(ref price, value);
+        }
+
+        private double oldPrice;
+        public double OldPrice
+        {
+            get => oldPrice;
+            set => SetProperty(ref oldPrice, value);
+        }
+
+        private double newPrice;
+        public double NewPrice
+        {
+            get => newPrice;
+            set => SetProperty(ref  newPrice, value);
         }
 
         private Specs specs = new Specs();
@@ -77,7 +91,7 @@ namespace SmartCar.Models
             {
                 SetProperty(ref selectedDamageType, value);
                 IsDamageTypeSelected = !string.IsNullOrEmpty(value);
-                DamageSeverities = new ObservableCollection<string> { "Minor", "Moderate", "Severe" }; // Example severities
+                DamageSeverities = new ObservableCollection<string> { "Minor", "Moderate", "Severe","Critical" }; // Example severities
             }
         }
 
