@@ -8,18 +8,17 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Windows.Input;
 
-
 namespace SmartCar.ViewModels
 {
     public class HomeViewModel : ObservableObject, IHomeViewModel
     {
-        
         private bool isRunning = false;
         public bool IsRunning
         {
             get => isRunning;
             set => SetProperty(ref isRunning, value);
         }
+
         private bool isCarClassified = false;
         public bool IsCarClassified
         {
@@ -39,8 +38,19 @@ namespace SmartCar.ViewModels
             }
         }
 
+        private ObservableCollection<DamageEntry> _damageEntries = new ObservableCollection<DamageEntry>
+        {
+            new DamageEntry()
+        };
+        public ObservableCollection<DamageEntry> DamageEntries
+        {
+            get => _damageEntries;
+            set => SetProperty(ref _damageEntries, value);
+        }
+
         public bool HasPhotos => Photos?.Count >= 1;
         public bool CanPickOrTakePhoto => !HasPhotos;
+
         private SmarterCar classifiedCar;
         public SmarterCar ClassifiedCar
         {
@@ -54,6 +64,8 @@ namespace SmartCar.ViewModels
         public ICommand RemovePhotoCommand { get; set; }
         public ICommand ShowAddPhotoMenuCommand { get; set; }
         public ICommand SaveAllInfoCommand { get; set; }
+        public ICommand AddDamageEntryCommand { get; }
+
         private IStorageService _storageService;
         private INavigationService _navigationService;
 
@@ -62,6 +74,7 @@ namespace SmartCar.ViewModels
             BindCommands();
             _storageService = storageService;
             _navigationService = navigationService;
+            AddDamageEntryCommand = new RelayCommand(AddDamageEntry);
         }
 
         private void BindCommands()
@@ -73,6 +86,12 @@ namespace SmartCar.ViewModels
             RemovePhotoCommand = new RelayCommand<ImageSource>(RemovePhotoCommandExecute);
             SaveAllInfoCommand = new AsyncRelayCommand(SaveAllInfoAndNavigate);
         }
+
+        private void AddDamageEntry()
+        {
+            DamageEntries.Add(new DamageEntry());
+        }
+
         private async Task PickPhoto()
         {
             var photo = await MediaPicker.Default.PickPhotoAsync();
@@ -101,6 +120,7 @@ namespace SmartCar.ViewModels
                     }
                 });
         }
+
         private async Task AddPhoto(FileResult photo)
         {
             if (photo != null)
@@ -110,7 +130,6 @@ namespace SmartCar.ViewModels
                 OnPropertyChanged(nameof(HasPhotos));
             }
         }
-
 
         private async Task PickAndClassifyPhoto()
         {
@@ -137,7 +156,7 @@ namespace SmartCar.ViewModels
 
         private void RemovePhotoCommandExecute(ImageSource photo)
         {
-            if (photo != null && Photos.Contains(photo) && Photos.IndexOf(photo) != 0)
+            if (photo != null && Photos.Contains(photo) && !IsFirstPhoto(photo))
             {
                 Photos.Remove(photo);
                 OnPropertyChanged(nameof(HasPhotos));
@@ -168,18 +187,33 @@ namespace SmartCar.ViewModels
         {
             double basePrice = ClassifiedCar.Price;
             double newPrice = basePrice;
+
             if (ClassifiedCar.IsDamaged)
             {
-                newPrice *= 0.8;
+                newPrice *= 0.9;
+                foreach (var damage in DamageEntries)
+                {
+                    switch (damage.DamageSeverity)
+                    {
+                        case "Minor":
+                            newPrice *= 0.95;
+                            break;
+                        case "Moderate":
+                            newPrice *= 0.90;
+                            break;
+                        case "Severe":
+                            newPrice *= 0.85;
+                            break;
+                        case "Critical":
+                            newPrice *= 0.80;
+                            break;
+                    }
+                }
             }
 
-            foreach (var damage in ClassifiedCar.DamageTypes)
-            {
-                newPrice *= 0.9;
-            }
             ClassifiedCar.OldPrice = basePrice;
             ClassifiedCar.NewPrice = newPrice;
-            OnPropertyChanged(nameof(ClassifiedCar) );
+            OnPropertyChanged(nameof(ClassifiedCar));
         }
 
         private async Task ClassifyPhotoAsync(FileResult photo)

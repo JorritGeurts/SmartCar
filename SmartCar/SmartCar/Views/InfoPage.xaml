@@ -1,9 +1,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SmartCar.Views.InfoPage"
-             xmlns:viewModels="clr-namespace:SmartCar.viewModels"
+             xmlns:viewModels="clr-namespace:SmartCar.ViewModels"
              xmlns:models="clr-namespace:SmartCar.Models"
-             x:DataType="viewModels:IInfoViewModel"
+             x:DataType="viewModels:InfoViewModel"
              Title="SmartCar">
     <ContentPage.Content>
         <ScrollView>
@@ -14,8 +14,8 @@
                             <Frame BorderColor="LightGray" CornerRadius="10" Padding="10" Margin="10">
                                 <StackLayout>
                                     <Label Text="{Binding Name}" FontSize="Large" FontAttributes="Bold" />
-                                    <Label Text="Original Price:" FontSize="Small" /> <Label Text="{Binding OldPrice}" FontSize="Small" />
-                                    
+                                    <Label Text="Original Price:" FontSize="Small" />
+                                    <Label Text="{Binding OldPrice}" FontSize="Small" />
                                     <Label Text="Discounted Price:" FontSize="Small" />
                                     <Label Text="{Binding NewPrice}" FontSize="Small" />
                                     <Label Text="Kilometers:" FontSize="Small" />
@@ -25,16 +25,14 @@
 
                                     <!-- Add Damage Details -->
                                     <Label Text="Damage Information:" FontSize="Small" FontAttributes="Bold" />
-
-                                    <!-- Loop through Damages if it's a collection of damages -->
-                                    <CollectionView ItemsSource="{Binding Damages}" ItemsLayout="VerticalList">
+                                    <CollectionView ItemsSource="{Binding DamageEntries}" ItemsLayout="VerticalList">
                                         <CollectionView.ItemTemplate>
-                                            <DataTemplate>
+                                            <DataTemplate x:DataType="models:DamageEntry">
                                                 <StackLayout Orientation="Horizontal" Spacing="5">
                                                     <Label Text="Type:" FontSize="Small" FontAttributes="Bold"/>
-                                                    <Label Text="{Binding SelectedDamageType}" FontSize="Small"/>
+                                                    <Label Text="{Binding DamageType}" FontSize="Small"/>
                                                     <Label Text="Severity:" FontSize="Small" FontAttributes="Bold"/>
-                                                    <Label Text="{Binding SelectedDamageSeverity}" FontSize="Small"/>
+                                                    <Label Text="{Binding DamageSeverity}" FontSize="Small"/>
                                                 </StackLayout>
                                             </DataTemplate>
                                         </CollectionView.ItemTemplate>
