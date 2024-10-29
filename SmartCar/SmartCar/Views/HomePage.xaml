@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"             
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"             
-             x:Class="SmartCar.Views.HomePage"             
-             xmlns:viewModels="clr-namespace:SmartCar.viewModels"             
-             xmlns:models="clr-namespace:SmartCar.Models"             
-             x:DataType="viewModels:IHomeViewModel"             
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:SmartCar.viewModels"
+             xmlns:models="clr-namespace:SmartCar.Models"
+             xmlns:converters="clr-namespace:SmartCar.Converters"
+             x:Class="SmartCar.Views.HomePage"
+             x:DataType="viewModels:IHomeViewModel"
              Title="SmartCar">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="20" Spacing="10">
@@ -16,7 +21,7 @@
                             <DataTemplate>
                                 <StackLayout>
                                     <Image Source="{Binding}" Aspect="AspectFill" HeightRequest="100" WidthRequest="100" Margin="5,0" />
-                                    <Button Text="Delete Photo" Command="{Binding Path=BindingContext.RemovePhotoCommand, Source={RelativeSource AncestorType={x:Type Page}}}" CommandParameter="{Binding}" HorizontalOptions="Center" />
+                                    <Button Text="Delete Photo" Command="{Binding Path=BindingContext.RemovePhotoCommand, Source={RelativeSource AncestorType={x:Type Page}}}" CommandParameter="{Binding}" HorizontalOptions="Center" IsVisible="{Binding Path=BindingContext.IsFirstPhoto, Source={RelativeSource AncestorType={x:Type Page}}, Converter={StaticResource InverseBooleanConverter}}" />
                                 </StackLayout>
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
@@ -56,28 +61,23 @@
                         <Label Text="Damage" FontSize="Small" />
                         <CheckBox IsChecked="{Binding ClassifiedCar.IsDamaged}" />
                         <StackLayout IsVisible="{Binding ClassifiedCar.IsDamaged}">
-                            <HorizontalStackLayout Spacing="10">
-                                <StackLayout>
-                                    <Label Text="Damage Type" />
-                                    <Picker ItemsSource="{Binding ClassifiedCar.DamageTypes}" SelectedItem="{Binding ClassifiedCar.SelectedDamageType}" />
-                                </StackLayout>
-                                <StackLayout>
-                                    <Label Text="Damage Severity" />
-                                    <Picker ItemsSource="{Binding ClassifiedCar.DamageSeverities}" SelectedItem="{Binding ClassifiedCar.SelectedDamageSeverity}" IsEnabled="{Binding ClassifiedCar.IsDamageTypeSelected}" />
-                                </StackLayout>
-                            </HorizontalStackLayout>
-                            <StackLayout IsVisible="{Binding ClassifiedCar.IsDamageTypeSelected}">
-                                <HorizontalStackLayout Spacing="10">
-                                    <StackLayout>
-                                        <Label Text="Damage Type" />
-                                        <Picker ItemsSource="{Binding ClassifiedCar.DamageTypes}" />
-                                    </StackLayout>
-                                    <StackLayout>
-                                        <Label Text="Damage Severity" />
-                                        <Picker ItemsSource="{Binding ClassifiedCar.DamageSeverities}"  IsEnabled="{Binding ClassifiedCar.IsDamageTypeSelected}"/>
-                                    </StackLayout>
-                                </HorizontalStackLayout>
-                            </StackLayout>
+                            <CollectionView ItemsSource="{Binding DamageEntries}">
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate x:DataType="viewModels:DamageEntry">
+                                        <HorizontalStackLayout Spacing="10">
+                                            <StackLayout>
+                                                <Label Text="Damage Type" />
+                                                <Picker ItemsSource="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.ClassifiedCar.DamageTypes}" SelectedItem="{Binding DamageType}" />
+                                            </StackLayout>
+                                            <StackLayout>
+                                                <Label Text="Damage Severity" />
+                                                <Picker ItemsSource="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.ClassifiedCar.DamageSeverities}" SelectedItem="{Binding DamageSeverity}" IsEnabled="{Binding IsDamageTypeSelected}" />
+                                            </StackLayout>
+                                        </HorizontalStackLayout>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+                            <Button Text="Add Damage" Command="{Binding AddDamageEntryCommand}" HorizontalOptions="Center" />
                         </StackLayout>
                     </StackLayout>
                 </Frame>

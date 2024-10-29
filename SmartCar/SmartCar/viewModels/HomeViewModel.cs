@@ -39,6 +39,13 @@ namespace SmartCar.ViewModels
             }
         }
 
+        private ObservableCollection<DamageEntry> _damageEntries = new ObservableCollection<DamageEntry>();
+        public ObservableCollection<DamageEntry> DamageEntries
+        {
+            get => _damageEntries;
+            set => SetProperty(ref _damageEntries, value);
+        }
+
         public bool HasPhotos => Photos?.Count >= 1;
         public bool CanPickOrTakePhoto => !HasPhotos;
         private SmarterCar classifiedCar;
@@ -54,6 +61,7 @@ namespace SmartCar.ViewModels
         public ICommand RemovePhotoCommand { get; set; }
         public ICommand ShowAddPhotoMenuCommand { get; set; }
         public ICommand SaveAllInfoCommand { get; set; }
+        public ICommand AddDamageEntryCommand { get; }
         private IStorageService _storageService;
         private INavigationService _navigationService;
 
@@ -62,6 +70,7 @@ namespace SmartCar.ViewModels
             BindCommands();
             _storageService = storageService;
             _navigationService = navigationService;
+            AddDamageEntryCommand = new RelayCommand(AddDamageEntry);
         }
 
         private void BindCommands()
@@ -72,6 +81,12 @@ namespace SmartCar.ViewModels
             AddPhotoCommand = new AsyncRelayCommand(AddPhotoCommandExecute);
             RemovePhotoCommand = new RelayCommand<ImageSource>(RemovePhotoCommandExecute);
             SaveAllInfoCommand = new AsyncRelayCommand(SaveAllInfoAndNavigate);
+           
+        }
+
+        private void AddDamageEntry()
+        {
+            DamageEntries.Add(new DamageEntry());
         }
         private async Task PickPhoto()
         {
@@ -137,7 +152,7 @@ namespace SmartCar.ViewModels
 
         private void RemovePhotoCommandExecute(ImageSource photo)
         {
-            if (photo != null && Photos.Contains(photo) && Photos.IndexOf(photo) != 0)
+            if (photo != null && Photos.Contains(photo) && !IsFirstPhoto(photo))
             {
                 Photos.Remove(photo);
                 OnPropertyChanged(nameof(HasPhotos));

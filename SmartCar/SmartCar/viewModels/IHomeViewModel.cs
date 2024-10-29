@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using SmartCar.Models;
+using SmartCar.ViewModels;
 
 namespace SmartCar.viewModels
 {
@@ -17,6 +18,7 @@ namespace SmartCar.viewModels
         ICommand RemovePhotoCommand { get; set; }
         ICommand ShowAddPhotoMenuCommand { get; set; }
         ICommand SaveAllInfoCommand { get; set; }
+        ICommand AddDamageEntryCommand { get; }
 
 
         SmarterCar ClassifiedCar { get; set; }
@@ -26,5 +28,7 @@ namespace SmartCar.viewModels
         bool HasPhotos { get; }
         bool CanPickOrTakePhoto { get; }
         ObservableCollection<ImageSource> Photos { get; set; }
+        bool IsFirstPhoto(ImageSource photo);
+        ObservableCollection<DamageEntry> DamageEntries { get; set; }
     }
 }
