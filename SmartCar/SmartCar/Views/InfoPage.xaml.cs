@@ -8,6 +8,6 @@ public partial class InfoPage : ContentPage
     {
         InitializeComponent();
         BindingContext = viewModel;
-        Console.WriteLine("BindingContext ingesteld"); // Debug output
+       
     }
 }

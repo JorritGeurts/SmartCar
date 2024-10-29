@@ -38,7 +38,7 @@ namespace SmartCar.Models
         public double NewPrice
         {
             get => newPrice;
-            set => SetProperty(ref  newPrice, value);
+            set => SetProperty(ref newPrice, value);
         }
 
         private Specs specs = new Specs();
@@ -59,21 +59,33 @@ namespace SmartCar.Models
         public string KmAmount
         {
             get => kmAmount;
-            set => SetProperty(ref kmAmount, value);
+            set
+            {
+                if (SetProperty(ref kmAmount, value))
+                {
+                    Validate();
+                }
+            }
         }
 
         private string yearBought;
         public string YearBought
         {
             get => yearBought;
-            set => SetProperty(ref yearBought, value);
+            set
+            {
+                if (SetProperty(ref yearBought, value))
+                {
+                    Validate();
+                }
+            }
         }
 
-        private string damages;
-        public string Damages
+        private ObservableCollection<DamageEntry> damageEntries = new ObservableCollection<DamageEntry>();
+        public ObservableCollection<DamageEntry> DamageEntries
         {
-            get => damages;
-            set => SetProperty(ref damages, value);
+            get => damageEntries;
+            set => SetProperty(ref damageEntries, value);
         }
 
         private ObservableCollection<string> damageTypes;
@@ -83,37 +95,11 @@ namespace SmartCar.Models
             set => SetProperty(ref damageTypes, value);
         }
 
-        private string selectedDamageType;
-        public string SelectedDamageType
-        {
-            get => selectedDamageType;
-            set
-            {
-                SetProperty(ref selectedDamageType, value);
-                IsDamageTypeSelected = !string.IsNullOrEmpty(value);
-                DamageSeverities = new ObservableCollection<string> { "Minor", "Moderate", "Severe","Critical" }; // Example severities
-            }
-        }
-
         private ObservableCollection<string> damageSeverities;
         public ObservableCollection<string> DamageSeverities
         {
             get => damageSeverities;
             set => SetProperty(ref damageSeverities, value);
-        }
-
-        private string selectedDamageSeverity;
-        public string SelectedDamageSeverity
-        {
-            get => selectedDamageSeverity;
-            set => SetProperty(ref selectedDamageSeverity, value);
-        }
-
-        private bool isDamageTypeSelected;
-        public bool IsDamageTypeSelected
-        {
-            get => isDamageTypeSelected;
-            set => SetProperty(ref isDamageTypeSelected, value);
         }
 
         private ObservableCollection<ImageSource> photos = new ObservableCollection<ImageSource>();
@@ -126,6 +112,20 @@ namespace SmartCar.Models
         public SmarterCar()
         {
             DamageTypes = new ObservableCollection<string> { "Scratch", "Dent", "Crack" }; // Example types
+            DamageSeverities = new ObservableCollection<string> { "Minor", "Moderate", "Severe", "Critical" }; // Example severities
+            DamageEntries.Add(new DamageEntry()); // Initialize with one entry
+        }
+
+        private bool canSave;
+        public bool CanSave
+        {
+            get => canSave;
+            private set => SetProperty(ref canSave, value);
+        }
+
+        private void Validate()
+        {
+            CanSave = !string.IsNullOrWhiteSpace(KmAmount) && !string.IsNullOrWhiteSpace(YearBought);
         }
     }
 }

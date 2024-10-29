@@ -29,13 +29,13 @@
     <AppXManifest Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-29T08:56:52.995</Modified>
+      <Modified>2024-10-29T10:14:46.874</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-29T08:56:52.807</Modified>
+      <Modified>2024-10-29T10:14:46.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SmartCar.runtimeconfig.json">
       <PackagePath>SmartCar.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SmartCar.dll">
       <PackagePath>SmartCar.dll</PackagePath>
-      <Modified>2024-10-29T08:56:52.281</Modified>
+      <Modified>2024-10-29T10:14:46.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>SmartCar.exe</PackagePath>
-      <Modified>2024-10-29T08:56:52.286</Modified>
+      <Modified>2024-10-29T10:14:46.031</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

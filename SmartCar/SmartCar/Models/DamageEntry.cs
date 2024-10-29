@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SmartCar.ViewModels
+namespace SmartCar.Models
 {
     public class DamageEntry : ObservableObject
     {
@@ -13,7 +13,11 @@ namespace SmartCar.ViewModels
         public string DamageType
         {
             get => damageType;
-            set => SetProperty(ref damageType, value);
+            set
+            {
+                SetProperty(ref damageType, value);
+                OnPropertyChanged(nameof(IsDamageTypeSelected));
+            }
         }
 
         private string damageSeverity;

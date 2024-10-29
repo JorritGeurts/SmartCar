@@ -56,14 +56,14 @@
                 <Frame BorderColor="LightGray" CornerRadius="10" Padding="10" Margin="10" IsVisible="{Binding IsCarClassified}">
                     <StackLayout>
                         <Label Text="Car Details" FontSize="Medium" FontAttributes="Bold" />
-                        <Entry Placeholder="Kilometer Amount" Text="{Binding ClassifiedCar.KmAmount}" Keyboard="Numeric" />
-                        <Entry Placeholder="Year Bought" Text="{Binding ClassifiedCar.YearBought}" Keyboard="Numeric" />
+                        <Entry Placeholder="Kilometer Amount*" Text="{Binding ClassifiedCar.KmAmount}" Keyboard="Numeric" />
+                        <Entry Placeholder="Year Bought*" Text="{Binding ClassifiedCar.YearBought}" Keyboard="Numeric" />
                         <Label Text="Damage" FontSize="Small" />
                         <CheckBox IsChecked="{Binding ClassifiedCar.IsDamaged}" />
                         <StackLayout IsVisible="{Binding ClassifiedCar.IsDamaged}">
                             <CollectionView ItemsSource="{Binding DamageEntries}">
                                 <CollectionView.ItemTemplate>
-                                    <DataTemplate x:DataType="viewModels:DamageEntry">
+                                    <DataTemplate x:DataType="models:DamageEntry">
                                         <HorizontalStackLayout Spacing="10">
                                             <StackLayout>
                                                 <Label Text="Damage Type" />
@@ -81,7 +81,7 @@
                         </StackLayout>
                     </StackLayout>
                 </Frame>
-                <Button Text="Save" Command="{Binding SaveAllInfoCommand}" HorizontalOptions="Center"/>
+                <Button Text="Save" Command="{Binding SaveAllInfoCommand}" HorizontalOptions="Center" IsEnabled="{Binding ClassifiedCar.CanSave}"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
