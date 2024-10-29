@@ -1,0 +1,6 @@
+@SmartCarAPI_HostAddress = http://localhost:5285
+
+GET {{SmartCarAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
