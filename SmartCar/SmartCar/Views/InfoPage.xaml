@@ -32,7 +32,7 @@
                                                     <Label Text="Type:" FontSize="Small" FontAttributes="Bold"/>
                                                     <Label Text="{Binding DamageType}" FontSize="Small"/>
                                                     <Label Text="Severity:" FontSize="Small" FontAttributes="Bold"/>
-                                                    <Label Text="{Binding DamageSeverity}" FontSize="Small"/>
+                                                    <Label Text="{Binding Severity}" FontSize="Small"/>
                                                 </StackLayout>
                                             </DataTemplate>
                                         </CollectionView.ItemTemplate>

@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\SmartCar.csproj": {}
+    "C:\\Users\\Jorrit Geurts\\Documents\\School\\Jaar3\\Semester1\\.Net\\Project\\SmartCar\\SmartCar\\SmartCar\\SmartCar.csproj": {}
   },
   "projects": {
-    "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\SmartCar.csproj": {
+    "C:\\Users\\Jorrit Geurts\\Documents\\School\\Jaar3\\Semester1\\.Net\\Project\\SmartCar\\SmartCar\\SmartCar\\SmartCar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\SmartCar.csproj",
+        "projectUniqueName": "C:\\Users\\Jorrit Geurts\\Documents\\School\\Jaar3\\Semester1\\.Net\\Project\\SmartCar\\SmartCar\\SmartCar\\SmartCar.csproj",
         "projectName": "SmartCar",
-        "projectPath": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\SmartCar.csproj",
-        "packagesPath": "C:\\Users\\seppe\\.nuget\\packages\\",
-        "outputPath": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\obj\\",
+        "projectPath": "C:\\Users\\Jorrit Geurts\\Documents\\School\\Jaar3\\Semester1\\.Net\\Project\\SmartCar\\SmartCar\\SmartCar\\SmartCar.csproj",
+        "packagesPath": "C:\\Users\\Jorrit Geurts\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jorrit Geurts\\Documents\\School\\Jaar3\\Semester1\\.Net\\Project\\SmartCar\\SmartCar\\SmartCar\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\seppe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jorrit Geurts\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-android",
@@ -57,6 +55,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -71,22 +74,26 @@
               "target": "Package",
               "version": "[2.0.0, )"
             },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.40, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.40, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.1, )",
+              "version": "[8.0.6, )",
               "autoReferenced": true
             }
           },
@@ -109,7 +116,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
@@ -122,22 +129,26 @@
               "target": "Package",
               "version": "[2.0.0, )"
             },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.40, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.40, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.1, )",
+              "version": "[8.0.6, )",
               "autoReferenced": true
             }
           },
@@ -160,7 +171,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
@@ -173,22 +184,26 @@
               "target": "Package",
               "version": "[2.0.0, )"
             },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.40, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.40, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.1, )",
+              "version": "[8.0.6, )",
               "autoReferenced": true
             }
           },
@@ -212,7 +227,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
@@ -225,17 +240,21 @@
               "target": "Package",
               "version": "[2.0.0, )"
             },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.40, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.40, )"
             }
           },
           "imports": [
@@ -263,7 +282,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

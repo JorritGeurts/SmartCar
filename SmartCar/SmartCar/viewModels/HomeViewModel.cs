@@ -13,6 +13,7 @@ namespace SmartCar.ViewModels
     public class HomeViewModel : ObservableObject, IHomeViewModel
     {
         private bool isRunning = false;
+
         public bool IsRunning
         {
             get => isRunning;
@@ -87,10 +88,12 @@ namespace SmartCar.ViewModels
             SaveAllInfoCommand = new AsyncRelayCommand(SaveAllInfoAndNavigate);
         }
 
-        private void AddDamageEntry()
+        private async void AddDamageEntry()
         {
+
             DamageEntries.Add(new DamageEntry());
         }
+
 
         private async Task PickPhoto()
         {
@@ -171,6 +174,13 @@ namespace SmartCar.ViewModels
 
         private async Task SaveAllInfoAndNavigate()
         {
+            foreach (var damageEntry in DamageEntries)
+            {
+                damageEntry.Tag = classifiedCar.Tag;
+
+                await SmartCarService.InsertDamageIntoApi(damageEntry);
+            }
+
             try
             {
                 
@@ -193,7 +203,7 @@ namespace SmartCar.ViewModels
                 newPrice *= 0.9;
                 foreach (var damage in DamageEntries)
                 {
-                    switch (damage.DamageSeverity)
+                    switch (damage.Severity)
                     {
                         case "Minor":
                             newPrice *= 0.95;

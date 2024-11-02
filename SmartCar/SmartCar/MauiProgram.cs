@@ -32,7 +32,6 @@ namespace SmartCar
             builder.Services.AddSingleton<IStorageService, StorageService>();
             builder.Services.AddTransient<INavigationService, NavigationService>();
 
-            
 
             return builder.Build();
         }

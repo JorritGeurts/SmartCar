@@ -45,12 +45,13 @@ namespace SmartCarAPI.Controllers
             // Create a new Damage entity
             var damage = new Damage
             {
+                tag = "A1",
                 damageType = "damageDto.DamageType",
-                severity = 1
+                severity = "1"
             };
 
             // Add to the context and save changes
-            _context.Damage.Add(damage);
+            _context.Damage.Add(damageDto);
             await _context.SaveChangesAsync();
 
             // Return the created damage record with a 201 status code

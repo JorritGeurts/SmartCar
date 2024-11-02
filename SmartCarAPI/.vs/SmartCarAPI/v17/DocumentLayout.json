@@ -1,12 +1,70 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Jorrit Geurts\\Documents\\School\\Jaar3\\Semester1\\.Net\\Project\\SmartCar\\SmartCarAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A90162ED-0C5E-43A0-997C-C6801EC75F4A}|SmartCarAPI\\SmartCarAPI.csproj|c:\\users\\jorrit geurts\\documents\\school\\jaar3\\semester1\\.net\\project\\smartcar\\smartcarapi\\smartcarapi\\models\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90162ED-0C5E-43A0-997C-C6801EC75F4A}|SmartCarAPI\\SmartCarAPI.csproj|solutionrelative:smartcarapi\\models\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90162ED-0C5E-43A0-997C-C6801EC75F4A}|SmartCarAPI\\SmartCarAPI.csproj|c:\\users\\jorrit geurts\\documents\\school\\jaar3\\semester1\\.net\\project\\smartcar\\smartcarapi\\smartcarapi\\controllers\\damagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90162ED-0C5E-43A0-997C-C6801EC75F4A}|SmartCarAPI\\SmartCarAPI.csproj|solutionrelative:smartcarapi\\controllers\\damagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90162ED-0C5E-43A0-997C-C6801EC75F4A}|SmartCarAPI\\SmartCarAPI.csproj|c:\\users\\jorrit geurts\\documents\\school\\jaar3\\semester1\\.net\\project\\smartcar\\smartcarapi\\smartcarapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A90162ED-0C5E-43A0-997C-C6801EC75F4A}|SmartCarAPI\\SmartCarAPI.csproj|solutionrelative:smartcarapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Damage.cs",
+              "DocumentMoniker": "C:\\Users\\Jorrit Geurts\\Documents\\School\\Jaar3\\Semester1\\.Net\\Project\\SmartCar\\SmartCarAPI\\SmartCarAPI\\Models\\Damage.cs",
+              "RelativeDocumentMoniker": "SmartCarAPI\\Models\\Damage.cs",
+              "ToolTip": "C:\\Users\\Jorrit Geurts\\Documents\\School\\Jaar3\\Semester1\\.Net\\Project\\SmartCar\\SmartCarAPI\\SmartCarAPI\\Models\\Damage.cs",
+              "RelativeToolTip": "SmartCarAPI\\Models\\Damage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T18:06:06.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DamagesController.cs",
+              "DocumentMoniker": "C:\\Users\\Jorrit Geurts\\Documents\\School\\Jaar3\\Semester1\\.Net\\Project\\SmartCar\\SmartCarAPI\\SmartCarAPI\\Controllers\\DamagesController.cs",
+              "RelativeDocumentMoniker": "SmartCarAPI\\Controllers\\DamagesController.cs",
+              "ToolTip": "C:\\Users\\Jorrit Geurts\\Documents\\School\\Jaar3\\Semester1\\.Net\\Project\\SmartCar\\SmartCarAPI\\SmartCarAPI\\Controllers\\DamagesController.cs",
+              "RelativeToolTip": "SmartCarAPI\\Controllers\\DamagesController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T18:05:52.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Jorrit Geurts\\Documents\\School\\Jaar3\\Semester1\\.Net\\Project\\SmartCar\\SmartCarAPI\\SmartCarAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "SmartCarAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Jorrit Geurts\\Documents\\School\\Jaar3\\Semester1\\.Net\\Project\\SmartCar\\SmartCarAPI\\SmartCarAPI\\appsettings.json",
+              "RelativeToolTip": "SmartCarAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-01T18:04:23.304Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
