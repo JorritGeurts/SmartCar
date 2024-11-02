@@ -71,7 +71,7 @@
                                             </StackLayout>
                                             <StackLayout>
                                                 <Label Text="Damage Severity" />
-                                                <Picker ItemsSource="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.ClassifiedCar.DamageSeverities}" SelectedItem="{Binding DamageSeverity}" IsEnabled="{Binding IsDamageTypeSelected}" />
+                                                <Picker ItemsSource="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.ClassifiedCar.DamageSeverities}" SelectedItem="{Binding Severity}" IsEnabled="{Binding IsDamageTypeSelected}" />
                                             </StackLayout>
                                         </HorizontalStackLayout>
                                     </DataTemplate>

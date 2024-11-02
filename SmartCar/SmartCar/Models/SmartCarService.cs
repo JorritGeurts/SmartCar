@@ -1,4 +1,8 @@
-﻿namespace SmartCar.Models
+﻿using Newtonsoft.Json;
+using System.Text;
+using SmartCar.Services;
+
+namespace SmartCar.Models
 {
     public class SmartCarService
     {
@@ -213,5 +217,25 @@
 
             }.FirstOrDefault(smartcar => smartcar.Tag == tag);
         }
+        public static async Task InsertDamageIntoApi(DamageEntry damageEntry)
+        {
+            using (var client = new HttpClient())
+            {
+                var json = JsonConvert.SerializeObject(damageEntry);
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+                Console.WriteLine("Request Content: " + json); // Log the JSON to see if it matches the API's requirements
+
+                var response = await client.PostAsync("http://localhost:5285/api/Damages/", content);
+
+                if (response.StatusCode != System.Net.HttpStatusCode.OK)
+                {
+                    string responseContent = await response.Content.ReadAsStringAsync();
+                    throw new Exception($"Request failed with status code {response.StatusCode}: {responseContent}");
+                }
+
+            }
+        }
+
     }
 }
