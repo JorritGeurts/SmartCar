@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SmartCarAPI.Data;
@@ -14,11 +10,12 @@ namespace SmartCarAPI.Controllers
     [ApiController]
     public class DamagesController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        private readonly SmartCarContext _context;
 
-        public DamagesController(ApplicationDbContext context)
+        public DamagesController(SmartCarContext context)
         {
             _context = context;
+ 
         }
 
         [HttpGet]
@@ -34,28 +31,28 @@ namespace SmartCarAPI.Controllers
             return Ok(damages);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> PostDamage(Damage damageDto)
-        {
-            if (damageDto == null)
-            {
-                return BadRequest("Damage data is required.");
-            }
+        //[HttpPost]
+        //public async Task<IActionResult> PostDamage(Damage damageDto)
+        //{
+        //    if (damageDto == null)
+        //    {
+        //        return BadRequest("Damage data is required.");
+        //    }
 
-            // Create a new Damage entity
-            var damage = new Damage
-            {
-                damageType = "damageDto.DamageType",
-                severity = 1
-            };
+        //    // Create a new Damage entity
+        //    var damage = new Damage
+        //    {
+        //        damageType = "damageDto.DamageType",
+        //        severity = 1
+        //    };
 
-            // Add to the context and save changes
-            _context.Damage.Add(damage);
-            await _context.SaveChangesAsync();
+        //    // Add to the context and save changes
+        //    _context.Damage.Add(damage);
+        //    await _context.SaveChangesAsync();
 
-            // Return the created damage record with a 201 status code
-            return await GetDamages();
-        }
+        //    // Return the created damage record with a 201 status code
+        //    return await GetDamages();
+        //}
 
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartCarAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46f4a7aa107ad6a90f1a33fac14eefec6c964a65")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bc16ecfd8fb205e109759b3a3e814e5f48898e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartCarAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartCarAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

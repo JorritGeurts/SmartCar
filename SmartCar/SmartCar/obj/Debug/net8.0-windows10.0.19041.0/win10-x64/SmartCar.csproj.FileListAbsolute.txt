@@ -488,7 +488,6 @@ F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-w
 F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
 F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
 F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
-F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Release.Net.dll
 F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
 F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ar\Microsoft.Maui.Controls.resources.dll
 F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ca\Microsoft.Maui.Controls.resources.dll
@@ -529,7 +528,6 @@ F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-w
 F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SDK.NET.dll
 F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\WinRT.Runtime.dll
 F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlC.stamp
-F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\SmartCar.csproj.CopyComplete
 F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\SmartCar.genruntimeconfig.cache
 F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ref\SmartCar.dll
 F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\priconfig.xml
@@ -548,3 +546,6 @@ F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-w
 F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Management.Deployment.Projection.dll
+F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.outputs
+F:\Thomas_More\24-25\.NET Advanced\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\SmartCar.csproj.Up2Date

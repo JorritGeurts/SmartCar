@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.Collections;
 using CommunityToolkit.Mvvm.ComponentModel;
 using System.Collections.ObjectModel;
+using System.Text.Json;
 
 namespace SmartCar.Models
 {
@@ -111,7 +112,7 @@ namespace SmartCar.Models
 
         public SmarterCar()
         {
-            DamageTypes = new ObservableCollection<string> { "Scratch", "Dent", "Crack" }; // Example types
+             // Example types
             DamageSeverities = new ObservableCollection<string> { "Minor", "Moderate", "Severe", "Critical" }; // Example severities
             DamageEntries.Add(new DamageEntry()); // Initialize with one entry
         }
@@ -126,6 +127,40 @@ namespace SmartCar.Models
         private void Validate()
         {
             CanSave = !string.IsNullOrWhiteSpace(KmAmount) && !string.IsNullOrWhiteSpace(YearBought);
+        }
+        private async Task FetchDamageTypesAsync()
+        {
+            try
+            {
+                string apiUrl = "http://localhost:5285/api/Damages";  // Replace with your actual API URL
+
+                using (HttpClient client = new HttpClient())
+                {
+                    HttpResponseMessage response = await client.GetAsync(apiUrl);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        // Read as string and then deserialize
+                        string jsonResponse = await response.Content.ReadAsStringAsync();
+                        var damageTypesList = JsonSerializer.Deserialize<List<DamageTypeModel>>(jsonResponse);
+
+                        // Update the ObservableCollection
+                        DamageTypes.Clear();
+                        foreach (var type in damageTypesList)
+                        {
+                            DamageTypes.Add(type.DamageTypes);
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Error fetching damage types: {response.StatusCode}");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Exception fetching damage types: {ex.Message}");
+            }
         }
     }
 }

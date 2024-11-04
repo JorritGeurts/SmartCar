@@ -12,6 +12,7 @@ namespace SmartCar.ViewModels
 {
     public class HomeViewModel : ObservableObject, IHomeViewModel
     {
+        
         private bool isRunning = false;
         public bool IsRunning
         {
@@ -156,7 +157,7 @@ namespace SmartCar.ViewModels
 
         private void RemovePhotoCommandExecute(ImageSource photo)
         {
-            if (photo != null && Photos.Contains(photo) && !IsFirstPhoto(photo))
+            if (photo != null && Photos.Contains(photo))
             {
                 Photos.Remove(photo);
                 OnPropertyChanged(nameof(HasPhotos));
