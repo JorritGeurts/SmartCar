@@ -1,52 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\",
+  "WorkspaceRootPath": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\project\\smartcar\\smartcar\\viewmodels\\iinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\viewmodels\\iinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\project\\smartcar\\smartcar\\viewmodels\\infoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\viewmodels\\infoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\project\\smartcar\\smartcar\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\smartcar\\smartcar\\smartcar\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\project\\smartcar\\smartcar\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\smartcar\\smartcar\\smartcar\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1AFDC6B-6467-401B-AE50-F08680DCC7D9}|..\\SmartCarAPI\\SmartCarAPI\\SmartCarAPI.csproj|f:\\thomas_more\\24-25\\.net advanced\\smartcar\\smartcarapi\\smartcarapi\\controllers\\damagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\smartcar\\smartcar\\smartcar\\models\\smartercar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\models\\smartercar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\smartcar\\smartcar\\smartcar\\models\\smartcarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\models\\smartcarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\smartcar\\smartcar\\smartcar\\models\\damageentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\models\\damageentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\smartcar\\smartcar\\smartcar\\models\\damagetypemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\models\\damagetypemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1AFDC6B-6467-401B-AE50-F08680DCC7D9}|..\\SmartCarAPI\\SmartCarAPI\\SmartCarAPI.csproj|f:\\thomas_more\\24-25\\.net advanced\\smartcar\\smartcarapi\\smartcarapi\\models\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\smartcar\\smartcar\\smartcar\\viewmodels\\iinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\viewmodels\\iinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\smartcar\\smartcar\\smartcar\\viewmodels\\infoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\viewmodels\\infoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\smartcar\\smartcar\\smartcar\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\seppe\\AppData\\Local\\Temp\\.vsdbgsrc\\decc4f2b2e835b9ce17374f17cd14360a87f7c7e\\Views_HomePage.xaml.sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\project\\smartcar\\smartcar\\models\\smartercar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\models\\smartercar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\project\\smartcar\\smartcar\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\smartcar\\smartcar\\smartcar\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\project\\smartcar\\smartcar\\models\\smartcarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\models\\smartcarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\project\\smartcar\\smartcar\\services\\customvisionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\smartcar\\smartcar\\smartcar\\services\\customvisionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\services\\customvisionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\project\\smartcar\\smartcar\\services\\photoimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\smartcar\\smartcar\\smartcar\\services\\photoimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\services\\photoimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\project\\smartcar\\smartcar\\models\\specs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\smartcar\\smartcar\\smartcar\\models\\specs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\models\\specs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\project\\smartcar\\smartcar\\smartcar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|f:\\thomas_more\\24-25\\.net advanced\\smartcar\\smartcar\\smartcar\\smartcar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{245D2366-7081-43C4-9C1A-E5ABE66A4BBA}|SmartCar\\SmartCar.csproj|solutionrelative:smartcar\\smartcar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -57,7 +75,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,24 +83,127 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "SmartCar\\MauiProgram.cs",
-              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\MauiProgram.cs",
-              "RelativeToolTip": "SmartCar\\MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "DamageEntry.cs",
+              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Models\\DamageEntry.cs",
+              "RelativeDocumentMoniker": "SmartCar\\Models\\DamageEntry.cs",
+              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Models\\DamageEntry.cs",
+              "RelativeToolTip": "SmartCar\\Models\\DamageEntry.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T09:24:31.099Z",
+              "WhenOpened": "2024-11-04T13:22:38.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "SmartCar\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "SmartCar\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA6wPYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:21:34.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SmarterCar.cs",
+              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Models\\SmarterCar.cs",
+              "RelativeDocumentMoniker": "SmartCar\\Models\\SmarterCar.cs",
+              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Models\\SmarterCar.cs",
+              "RelativeToolTip": "SmartCar\\Models\\SmarterCar.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAADwv2gAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:37:51.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "SmartCar\\Views\\HomePage.xaml",
+              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Views\\HomePage.xaml",
+              "RelativeToolTip": "SmartCar\\Views\\HomePage.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T13:07:37.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DamagesController.cs",
+              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCarAPI\\SmartCarAPI\\Controllers\\DamagesController.cs",
+              "RelativeDocumentMoniker": "..\\SmartCarAPI\\SmartCarAPI\\Controllers\\DamagesController.cs",
+              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCarAPI\\SmartCarAPI\\Controllers\\DamagesController.cs",
+              "RelativeToolTip": "..\\SmartCarAPI\\SmartCarAPI\\Controllers\\DamagesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:31:58.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "DamageTypeModel.cs",
+              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Models\\DamageTypeModel.cs",
+              "RelativeDocumentMoniker": "SmartCar\\Models\\DamageTypeModel.cs",
+              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Models\\DamageTypeModel.cs",
+              "RelativeToolTip": "SmartCar\\Models\\DamageTypeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:22:16.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SmartCarService.cs",
+              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Models\\SmartCarService.cs",
+              "RelativeDocumentMoniker": "SmartCar\\Models\\SmartCarService.cs",
+              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Models\\SmartCarService.cs",
+              "RelativeToolTip": "SmartCar\\Models\\SmartCarService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:39:38.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InfoViewModel.cs",
+              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\ViewModels\\InfoViewModel.cs",
+              "RelativeDocumentMoniker": "SmartCar\\ViewModels\\InfoViewModel.cs",
+              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\ViewModels\\InfoViewModel.cs",
+              "RelativeToolTip": "SmartCar\\ViewModels\\InfoViewModel.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwC8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:28:33.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Damage.cs",
+              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCarAPI\\SmartCarAPI\\Models\\Damage.cs",
+              "RelativeDocumentMoniker": "..\\SmartCarAPI\\SmartCarAPI\\Models\\Damage.cs",
+              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCarAPI\\SmartCarAPI\\Models\\Damage.cs",
+              "RelativeToolTip": "..\\SmartCarAPI\\SmartCarAPI\\Models\\Damage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:22:05.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "HomePage.xaml.cs",
-              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\Views\\HomePage.xaml.cs",
+              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Views\\HomePage.xaml.cs",
               "RelativeDocumentMoniker": "SmartCar\\Views\\HomePage.xaml.cs",
-              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\Views\\HomePage.xaml.cs",
+              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Views\\HomePage.xaml.cs",
               "RelativeToolTip": "SmartCar\\Views\\HomePage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -90,58 +211,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InfoViewModel.cs",
-              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\viewModels\\InfoViewModel.cs",
-              "RelativeDocumentMoniker": "SmartCar\\viewModels\\InfoViewModel.cs",
-              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\viewModels\\InfoViewModel.cs",
-              "RelativeToolTip": "SmartCar\\viewModels\\InfoViewModel.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwC8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T13:28:33.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SmarterCar.cs",
-              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\Models\\SmarterCar.cs",
-              "RelativeDocumentMoniker": "SmartCar\\Models\\SmarterCar.cs",
-              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\Models\\SmarterCar.cs",
-              "RelativeToolTip": "SmartCar\\Models\\SmarterCar.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAA1wGgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T12:37:51.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomePage.xaml",
-              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\Views\\HomePage.xaml",
-              "RelativeDocumentMoniker": "SmartCar\\Views\\HomePage.xaml",
-              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\Views\\HomePage.xaml",
-              "RelativeToolTip": "SmartCar\\Views\\HomePage.xaml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-21T13:07:37.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "IInfoViewModel.cs",
-              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\viewModels\\IInfoViewModel.cs",
-              "RelativeDocumentMoniker": "SmartCar\\viewModels\\IInfoViewModel.cs",
-              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\viewModels\\IInfoViewModel.cs",
-              "RelativeToolTip": "SmartCar\\viewModels\\IInfoViewModel.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBIAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\ViewModels\\IInfoViewModel.cs",
+              "RelativeDocumentMoniker": "SmartCar\\ViewModels\\IInfoViewModel.cs",
+              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\ViewModels\\IInfoViewModel.cs",
+              "RelativeToolTip": "SmartCar\\ViewModels\\IInfoViewModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T13:29:05.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "SmartCar\\MauiProgram.cs",
+              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\MauiProgram.cs",
+              "RelativeToolTip": "SmartCar\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:24:31.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Views_HomePage.xaml.sg.cs",
               "DocumentMoniker": "C:\\Users\\seppe\\AppData\\Local\\Temp\\.vsdbgsrc\\decc4f2b2e835b9ce17374f17cd14360a87f7c7e\\Views_HomePage.xaml.sg.cs",
               "ToolTip": "C:\\Users\\seppe\\AppData\\Local\\Temp\\.vsdbgsrc\\decc4f2b2e835b9ce17374f17cd14360a87f7c7e\\Views_HomePage.xaml.sg.cs [Read Only]",
@@ -152,23 +247,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SmartCarService.cs",
-              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\Models\\SmartCarService.cs",
-              "RelativeDocumentMoniker": "SmartCar\\Models\\SmartCarService.cs",
-              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\Models\\SmartCarService.cs",
-              "RelativeToolTip": "SmartCar\\Models\\SmartCarService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T13:39:38.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "CustomVisionService.cs",
-              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\Services\\CustomVisionService.cs",
+              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Services\\CustomVisionService.cs",
               "RelativeDocumentMoniker": "SmartCar\\Services\\CustomVisionService.cs",
-              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\Services\\CustomVisionService.cs",
+              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Services\\CustomVisionService.cs",
               "RelativeToolTip": "SmartCar\\Services\\CustomVisionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -176,11 +259,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "PhotoImageService.cs",
-              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\Services\\PhotoImageService.cs",
+              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Services\\PhotoImageService.cs",
               "RelativeDocumentMoniker": "SmartCar\\Services\\PhotoImageService.cs",
-              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\Services\\PhotoImageService.cs",
+              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Services\\PhotoImageService.cs",
               "RelativeToolTip": "SmartCar\\Services\\PhotoImageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -188,11 +271,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Specs.cs",
-              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\Models\\Specs.cs",
+              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Models\\Specs.cs",
               "RelativeDocumentMoniker": "SmartCar\\Models\\Specs.cs",
-              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\Models\\Specs.cs",
+              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\Models\\Specs.cs",
               "RelativeToolTip": "SmartCar\\Models\\Specs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -200,11 +283,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "SmartCar.csproj",
-              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\SmartCar.csproj",
+              "DocumentMoniker": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\SmartCar.csproj",
               "RelativeDocumentMoniker": "SmartCar\\SmartCar.csproj",
-              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\project\\SmartCar\\SmartCar\\SmartCar.csproj",
+              "ToolTip": "F:\\Thomas_More\\24-25\\.NET Advanced\\SmartCar\\SmartCar\\SmartCar\\SmartCar.csproj",
               "RelativeToolTip": "SmartCar\\SmartCar.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
