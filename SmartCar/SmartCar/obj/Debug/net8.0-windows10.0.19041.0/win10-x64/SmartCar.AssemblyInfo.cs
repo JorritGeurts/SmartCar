@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartCar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6bc16ecfd8fb205e109759b3a3e814e5f48898e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d92c70b660c7766c87ad46463398bfffc792fd48")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartCar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartCar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
