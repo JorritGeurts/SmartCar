@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Http.Json;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace SmartCar.Services
 {
@@ -18,14 +19,19 @@ namespace SmartCar.Services
             {
                 string url = BASE_URL + endPoint;
                 var response = await client.PostAsJsonAsync(url, data);
+
                 if (response.StatusCode != System.Net.HttpStatusCode.Created)
                 {
-                    throw new Exception("Request failed with status code " + response.StatusCode);
+                    string responseContent = await response.Content.ReadAsStringAsync();
+                    throw new Exception($"Request failed with status code {response.StatusCode}: {responseContent}");
                 }
+
             }
-            catch
+            catch (Exception ex)
             {
-                throw;
+                // Log the exception details (using your logging framework)
+                Console.WriteLine($"Error in PostAsync: {ex.Message}");
+                throw; // Re-throw the exception
             }
         }
 

@@ -174,12 +174,18 @@ namespace SmartCar.ViewModels
 
         private async Task SaveAllInfoAndNavigate()
         {
-            foreach (var damageEntry in DamageEntries)
+
+            var dto = SmartCarService.MapToDto(classifiedCar);
+
+            await SmartCarService.AddNewCar(dto);
+
+
+            /*foreach (var damageEntry in DamageEntries)
             {
                 damageEntry.Tag = classifiedCar.Tag;
 
                 await SmartCarService.InsertDamageIntoApi(damageEntry);
-            }
+            }*/
 
             try
             {

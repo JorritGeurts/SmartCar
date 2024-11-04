@@ -33,30 +33,5 @@ namespace SmartCarAPI.Controllers
 
             return Ok(damages);
         }
-
-        [HttpPost]
-        public async Task<IActionResult> PostDamage(Damage damageDto)
-        {
-            if (damageDto == null)
-            {
-                return BadRequest("Damage data is required.");
-            }
-
-            // Create a new Damage entity
-            var damage = new Damage
-            {
-                tag = "A1",
-                damageType = "damageDto.DamageType",
-                severity = "1"
-            };
-
-            // Add to the context and save changes
-            _context.Damage.Add(damageDto);
-            await _context.SaveChangesAsync();
-
-            // Return the created damage record with a 201 status code
-            return await GetDamages();
-        }
-
     }
 }

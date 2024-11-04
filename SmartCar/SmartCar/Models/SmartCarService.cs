@@ -217,6 +217,23 @@ namespace SmartCar.Models
 
             }.FirstOrDefault(smartcar => smartcar.Tag == tag);
         }
+
+        public static SmarterCarDTO MapToDto(SmarterCar entry)
+        {
+            return new SmarterCarDTO
+            {
+                Tag = entry.Tag,
+                OldPrice = entry.OldPrice,
+                NewPrice = entry.NewPrice,
+                Photo = "testtest"
+            };
+        }
+
+
+        public static async Task AddNewCar(SmarterCarDTO smartercar)
+        {
+            await APIService<SmarterCarDTO>.PostAsync("Car/", smartercar);
+        }
         public static async Task InsertDamageIntoApi(DamageEntry damageEntry)
         {
             using (var client = new HttpClient())

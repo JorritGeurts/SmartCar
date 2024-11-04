@@ -75,6 +75,3 @@ src/iOS/obj/
 
 # npm package folder
 node_modules/
-
-*.sql
-

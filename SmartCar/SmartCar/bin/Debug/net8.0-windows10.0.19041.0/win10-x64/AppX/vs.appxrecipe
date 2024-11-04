@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\Jorrit Geurts\Documents\School\Jaar3\Semester1\.Net\Project\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-02T16:28:00.158</Modified>
+      <Modified>2024-11-04T15:19:14.124</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jorrit Geurts\Documents\School\Jaar3\Semester1\.Net\Project\SmartCar\SmartCar\SmartCar\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SmartCar.dll">
       <PackagePath>SmartCar.dll</PackagePath>
-      <Modified>2024-11-02T16:27:59.714</Modified>
+      <Modified>2024-11-04T15:19:13.210</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jorrit Geurts\Documents\School\Jaar3\Semester1\.Net\Project\SmartCar\SmartCar\SmartCar\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>SmartCar.exe</PackagePath>
-      <Modified>2024-11-02T16:27:59.717</Modified>
+      <Modified>2024-11-04T15:19:13.234</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jorrit Geurts\Documents\School\Jaar3\Semester1\.Net\Project\SmartCar\SmartCar\SmartCar\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

@@ -6,6 +6,8 @@ namespace SmartCar.Models
 {
     public class SmarterCar : ObservableObject
     {
+        
+
         private string tag = string.Empty;
         public string Tag
         {
